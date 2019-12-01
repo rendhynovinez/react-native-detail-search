@@ -1,0 +1,36 @@
+{
+  "name": "FoodApp2",
+  "homepage": "https://github.com/rendhynovinez/react-native-detail-search.git",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "lint:fix": "eslint './src/**/*.{ts,tsx}'",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "build": "babel src -d lib",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel-cli": "^6.26.0",
+    "expo": "^35.0.1",
+    "gh-pages": "^2.1.1",
+    "react": "16.8.3",
+    "react-native": "^0.59.10",
+    "react-native-elements": "^1.1.0",
+    "react-native-gesture-handler": "^1.5.2",
+    "react-native-searchbar": "^1.16.0",
+    "react-native-snap-carousel": "^3.8.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^3.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "@types/react": "^16.8.23"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

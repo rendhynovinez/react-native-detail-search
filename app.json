@@ -1,0 +1,34 @@
+
+{
+  "expo": {
+    "name": "codingtes",
+    "slug": "codingtes",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/yelp.png",
+    "splash": {
+      "image": "./assets/icons/CODING.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F7F7F7"
+    },
+    "android" : {
+      "package": "com.codingtes"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
